@@ -1,0 +1,102 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+
+/* ---------------- home inicial-------------------------- */
+
+.apresenta {
+    width: 1351px;
+    height: 658px;
+    background-size: 2560px 1217px;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner_vintage2.jpeg);
+}
+
+
+/* ---------------- nav with site options ------------------ */
+
+.topnav {
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid red;
+}
+
+
+/* ----------------------------instrument options------------------- */
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-top: 60px;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#author {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#vocal {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#piano {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#bateria {
+    top: 200px;
+    background-color: #555
+}
+
+#violao {
+    top: 270px;
+    background-color: #555
+}
+
+
+/* ----------------------------fim da page------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 100px; */
+    border: solid #ddd 1px;
+}
+
+footer p {
+    color: black;
+    float: left;
+    text-align: center;
+}
