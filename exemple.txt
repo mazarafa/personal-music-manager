@@ -1,0 +1,8 @@
+# personal-music-manager
+
+Simple, non-profit music production manager.
+
+Created to remove a little bit of blockage in the production of real piano music, it can be used on any platform, 
+be it Windows, Linux and smartphones.
+
+https://www.npmjs.com/package/guitar-trainer-lib
